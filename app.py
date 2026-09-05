@@ -1,6 +1,5 @@
 # app.py
 # Install necessary libraries
-!pip install streamlit groq
 
 import streamlit as st
 from groq import Groq
