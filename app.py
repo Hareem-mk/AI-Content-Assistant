@@ -49,7 +49,7 @@ if submitted:
                 """
 
                 response = client.chat.completions.create(
-                    model="llama-3.1-8b-instant",
+                    model="llama-3.2-3b-preview",
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.7,
                 )
